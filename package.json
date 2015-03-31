@@ -1,0 +1,24 @@
+{
+  "name": "react-surface",
+  "version": "0.3.0",
+  "description": "An integration between React and a Famous Surface.",
+  "main": "ReactSurface.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cj3kim/ReactSurface.git"
+  },
+  "keywords": [
+    "famous",
+    "react",
+    "javascript"
+  ],
+  "author": "cj3kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cj3kim/ReactSurface/issues"
+  },
+  "homepage": "https://github.com/cj3kim/ReactSurface"
+}
