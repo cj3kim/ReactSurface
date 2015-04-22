@@ -1,6 +1,6 @@
 {
   "name": "react-surface",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "An integration between React and a Famous Surface.",
   "main": "ReactSurface.js",
   "scripts": {
