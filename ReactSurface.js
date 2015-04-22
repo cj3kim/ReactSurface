@@ -16,8 +16,13 @@ ReactSurface.prototype.deploy = function deploy (target) {
 
   if (React.isValidElement(content)){
     React.render(content,target);
+    this._cachedContent = content;
   } else {
-    throw new Error("Content is not a valid react component");
+    if (this._cachedContent) {
+      React.render(this._cachedContent, target);
+    } else {
+      throw new Error("Content is not a valid react component");
+    }
   }
 }
 
